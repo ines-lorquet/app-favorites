@@ -1,0 +1,450 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+.h2_t {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(100, 65, 164);
+    margin-left: 20%;
+}
+
+.h2_w {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(225, 65, 30);
+    margin-left: 20%;
+}
+
+.h2_c {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(254, 76, 138);
+    margin-left: 20%;
+}
+
+.logo {
+    height: 20px;
+    width: 25px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+    color: #000000;
+    border-radius: 30px;
+    margin-right: 20px;
+    opacity: 0.9;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+.app {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+}
+
+.bloc_app {
+    display: flex;
+    justify-content: center;
+}
+
+.conteneur-images {
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+.image1 {
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    position: absolute
+}
+
+.image2 {
+    display: flex;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 80%;
+    position: absolute
+}
+
+.logo_nav_t {
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    width: 70px;
+}
+
+.navigation_t {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2b2b2b;
+    color: #2b2b2b;
+    margin-right: 20px;
+    opacity: 0.9;
+    border: #000000;
+    font-weight: 1000;
+
+}
+
+.navigation_t a {
+    text-decoration: none;
+    color: rgb(100, 65, 164)
+}
+
+.navigation_t a:hover {
+    text-decoration: underline;
+}
+
+.back_t {
+    background-color: #000000;
+}
+
+.ligne-images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.ligne-images img {
+    margin-right: 10px;
+    margin-top: 3%;
+    width: 30%;
+}
+
+.ligne-images img {
+    max-width: 100%;
+}
+
+.overlay {
+    position: absolute;
+    top: 31%;
+    left: 35%;
+    /* Placez le texte en dehors de l'image (à droite) */
+    background-color: rgba(100, 65, 164, 0.5);
+    /* Arrière-plan semi-transparent pour le texte */
+    padding: 10px;
+    /* Espace intérieur autour du texte */
+    color: white;
+    /* Couleur du texte */
+    transition: left 0.3s;
+    /* Transition fluide pour l'animation */
+    z-index: -1;
+}
+
+.ligne-images:hover .overlay {
+    left: 0;
+}
+
+.overlay1 {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 69%;
+    left: 35%;
+    /* Placez le texte en dehors de l'image (à droite) */
+    background-color: rgba(100, 65, 164, 0.5);
+    /* Arrière-plan semi-transparent pour le texte */
+    padding: 10px;
+    /* Espace intérieur autour du texte */
+    color: white;
+    /* Couleur du texte */
+    transition: left 0.3s;
+    /* Transition fluide pour l'animation */
+    z-index: -1;
+}
+
+.ligne-images:hover .overlay1 {
+    left: 0;
+}
+
+.live {
+    display: flex;
+    justify-content: center;
+}
+
+.live_t {
+    height: 90%;
+    width: 90%;
+}
+
+.slogan_t {
+    font-weight: bolder;
+    color: rgb(100, 65, 164);
+
+}
+
+.logo_nav_w {
+    display: flex;
+    justify-content: flex-start;
+    height: 50px;
+    width: 70px;
+}
+
+.navigation_w {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(254, 254, 254);
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    opacity: 0.9;
+    border: rgb(225, 65, 30);
+    border-style: solid;
+    border-radius: 23px;
+    font-weight: 1000;
+
+}
+
+.navigation_w a {
+    text-decoration: none;
+    color: rgb(225, 65, 30)
+}
+
+.navigation_w a:hover {
+    text-decoration: underline;
+}
+
+.back_w {
+    background-color: #fff;
+}
+
+.slider {
+    width: 800px;
+    margin: 30px auto;
+    position: relative;
+}
+
+.slider-viewport {
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.slider-content {
+    display: grid;
+    grid-auto-flow: column;
+    -webkit-transition: 1s all;
+    transition: 1s all;
+}
+
+.slider-content img {
+    width: 800px;
+    height: 400px;
+}
+
+.slider-nav {
+    position: absolute;
+    width: 100%;
+    bottom: -30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.slider-nav a {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    background-color: rgb(225, 65, 30);
+    width: 15px;
+    height: 15px;
+    margin: 0 3px;
+}
+
+.slider-nav a:hover {
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 5px 0px rgba(255, 255, 255, 0.8);
+}
+
+#img2:target .slider-content {
+    -webkit-transform: translateX(-800px);
+    transform: translateX(-800px);
+}
+
+#img3:target .slider-content {
+    -webkit-transform: translateX(-1600px);
+    transform: translateX(-1600px);
+}
+
+#img4:target .slider-content {
+    -webkit-transform: translateX(-2400px);
+    transform: translateX(-2400px);
+}
+
+#img5:target .slider-content {
+    -webkit-transform: translateX(-3200px);
+    transform: translateX(-3200px);
+}
+
+.slogan_w {
+    color: rgb(225, 65, 30);
+}
+
+.navigation_c {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(cake_nav.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 10px;
+    /* Ajustez le rembourrage selon vos besoins */
+    color: rgb(255, 255, 255);
+    margin-right: 20px;
+    opacity: 0.9;
+    border-radius: 23px;
+    font-weight: 1000;
+
+}
+
+.navigation_c a {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+
+.navigation_c a:hover {
+    text-decoration: underline;
+}
+
+.h2_c {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(247, 80, 142);
+}
+
+.questionnaire {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.question p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+input[type="checkbox"] {
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: rgb(247, 80, 142);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(247, 80, 14);
+}
+
+.soumettre_c {
+    display: flex;
+    justify-content: center;
+}
+.soumettre {
+    height: 50%;
+    width: 50%;
+}
+.placement_p {
+    display: flex;
+    justify-content: center;
+    margin-top: 7%;
+}
+  
+.phone {
+    width: 300px;
+    height: 500px;
+    background-color: #ffffff;
+    border: #000000;
+    border-style: solid;
+    border-width: 15px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    position: relative;
+  }
+  
+  .screen {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 90%;
+    overflow: hidden;
+    padding: 20px;
+    margin-right: 10px;
+  }
+  
+  .app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;    
+    width: 80px;
+    height: 80px;
+    background-color: #000000;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 100px;
+
+  }
+  
+  .app:hover {
+    background-color: #ddd;
+    transition: background-color 0.3s;
+  }
+.logo2 {
+    display: flex;
+    justify-content: center;
+    height: 32px;
+    width: 35px;
+}

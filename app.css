@@ -148,15 +148,10 @@ h1 {
     position: absolute;
     top: 31%;
     left: 35%;
-    /* Placez le texte en dehors de l'image (à droite) */
     background-color: rgba(100, 65, 164, 0.5);
-    /* Arrière-plan semi-transparent pour le texte */
     padding: 10px;
-    /* Espace intérieur autour du texte */
     color: white;
-    /* Couleur du texte */
     transition: left 0.3s;
-    /* Transition fluide pour l'animation */
     z-index: -1;
 }
 
@@ -170,15 +165,10 @@ h1 {
     position: absolute;
     top: 69%;
     left: 35%;
-    /* Placez le texte en dehors de l'image (à droite) */
     background-color: rgba(100, 65, 164, 0.5);
-    /* Arrière-plan semi-transparent pour le texte */
     padding: 10px;
-    /* Espace intérieur autour du texte */
-    color: white;
-    /* Couleur du texte */
+    color: white;    
     transition: left 0.3s;
-    /* Transition fluide pour l'animation */
     z-index: -1;
 }
 
@@ -317,7 +307,6 @@ h1 {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 10px;
-    /* Ajustez le rembourrage selon vos besoins */
     color: rgb(255, 255, 255);
     margin-right: 20px;
     opacity: 0.9;
